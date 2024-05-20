@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<title>Portfolio</title>
+</head>
+<body>
+</body>
+</html>
+<body>
+    <header>  
+        <div class="container">  
+          <nav class="flex items-centre justify-between">  
+              <div class="left flex justfiy-right">  
+              <div class="logo">  
+                <img src="https://smashinglogo.com/v3/envision/image.jpg?id=4f377fe0-6b42-4a20-8b1b-d3ed7a6c4e4a&format=desktop" width="50px" alt="logo">  
+              </div>  
+              <div>  
+                <a href="#">Home</a>  
+                <a href="#">Profile/Skills</a>  
+                <a href="#">Projects</a>  
+                <a href="#">Contact Us</a></li>   
+              </div>  
+            </div>  
+            <div class="right">  
+              <button class="btn btn-primary">Contact</button>  
+            </div>  
+          </nav>
+        </div>  
+      </header>
+</body>
+<div class="hero flex items-centre justify-between">
+    <div class="left flex-1 justify-center">
+    <img src="Dara.jpg" alt="Profile">
+    </div>
+    <div class="right flex-1">
+    <h6>Darasimi Ogunbanjo</h6>
+    <h1><span>I'm a Web <br>Developer</span></h1>
+    <p>This is a website containing all my details, skills, and experiences.</p>
+    <div>
+    <button class="btn btn-secondary">DOWNLOAD CV</button>
+    </div>
+    </div>
+    </div>
+    <section class="Projects/Skills">
+        <div class="container flex items-centre">
+        <div class="left flex-1 justify-right">
+        </div>
+        <div class="right flex-1">
+        <h1>Profile/Skills <span>Me</span></h1>
+        <h3>Hello! I'm Darasimi Ogunbanjo.</h3>
+        <p> I design, build, and maintain websites and web applications. 
+            I also create user interface, write codes, and ensure websites are functional,
+            secure, and visually appealing.
+        </p> I happen to work with a variety of technologies, including HTML, CSS, 
+             JavaScript, and server-side programming languages like PHP, Ruby, and Python.
+        </div>
+        </div>
+        </section>
+        <section class="Projects">
+            <div class="container">
+            <h1 class="services-head">Services</h1>
+            <p>All your digital needs... covered.</p>
+            <div class="card-grid">
+            <div class="card">
+            <img src="graphicdesign.jpeg">
+            <h2>Graphic Desgin</h2>
+            <p>I have expertise in logo design, web design, and infographics.</p>
+            </div>
+            <div class="card">
+            <img src="webdev.png">
+            <h2>Web Development</h2>
+            <p>I have done front-end and back-end development,
+                testing and debbugging, full-stack development etc. </p>
+            </div>
+            <div class="card">
+            <img src="writing.svg">
+            <h2>Content Writing</h2>
+            <p>Wrote website copy, including homepage, about, and services pages
+               Created FAQs, terms and conditions, and other essential website content
+               Developed internal documentation for company teams and stakeholders
+               Translated content for multilingual websites or international audiences</p>
+            </div>
+            </div>
+            </div>
+            </section>
